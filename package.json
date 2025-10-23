@@ -2,10 +2,10 @@
 "name": "backend-course-2025-4",
 "version": "1.0.0",
 "description": "Variant 6 - titanic JSON to XML server",
-"main": "index.js",
+"main": "app.js",
 "scripts": {
-"start": "node index.js --input titanic.json --host 127.0.0.1 --port 3000",
-"dev": "nodemon index.js --input titanic.json --host 127.0.0.1 --port 3000"
+"start": "node app.js --input titanic.json --host 127.0.0.1 --port 3000",
+"dev": "nodemon app.js -- --input titanic.json --host 127.0.0.1 --port 3000"
 },
 "dependencies": {
 "commander": "^11.0.0",

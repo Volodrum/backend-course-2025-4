@@ -7,7 +7,7 @@ program
   .requiredOption('-i, --input <path>', 'Path to input JSON file')
   .requiredOption('-H, --host <host>', 'Server host')
   .requiredOption('-p, --port <port>', 'Server port');
-
+  
 program.parse(process.argv);
 const opts = program.opts();
 const INPUT = opts.input;
