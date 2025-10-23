@@ -1,20 +1,17 @@
 {
-  "name": "backend-course-2025-4",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Volodrum/backend-course-2025-4.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Volodrum/backend-course-2025-4/issues"
-  },
-  "homepage": "https://github.com/Volodrum/backend-course-2025-4#readme",
-  "description": ""
+"name": "backend-course-2025-4",
+"version": "1.0.0",
+"description": "Variant 6 - titanic JSON to XML server",
+"main": "index.js",
+"scripts": {
+"start": "node index.js --input titanic.json --host 127.0.0.1 --port 3000",
+"dev": "nodemon index.js --input titanic.json --host 127.0.0.1 --port 3000"
+},
+"dependencies": {
+"commander": "^11.0.0",
+"fast-xml-parser": "^5.0.0"
+},
+"devDependencies": {
+"nodemon": "^3.0.1"
+}
 }
